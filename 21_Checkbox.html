@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+    </form>
+
+    <form action="/server">
+        <div>
+            Choose Your subjects : 
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">math</label>
+
+            <input type="checkbox" name="sub" id="physics" value="phy">
+            <label for="physics">physics</label>
+
+            <input type="checkbox" name="sub" id="chemistry" value="chem">
+            <label for="chemistry">chemistry</label>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>
